@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <!-- 连框颜色值 -->
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/text_line_color" />
+                </shape>
+            </item>
+            <!-- 主体背景颜色值 -->
+            <item android:bottom="0.8dp" >
+
+                <shape>
+                    <solid android:color="@color/text_base_color_ebe" />
+
+                    <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_focused="true">
+        <!-- 连框颜色值 -->
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/text_line_color" />
+                </shape>
+            </item>
+            <!-- 主体背景颜色值 -->
+
+            <item
+
+                android:bottom="0.8dp">
+
+                <shape>
+                    <solid android:color="@color/text_base_color_ebe" />
+
+                    <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <!-- 连框颜色值 -->
+            <item>
+                <shape>
+                    <solid android:color="@color/text_line_color" />
+                </shape>
+            </item>
+            <!-- 主体背景颜色值 -->
+
+            <item
+
+                android:bottom="0.8dp" >
+
+                <shape>
+                    <solid android:color="@color/text_base_color_fff" />
+
+                    <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
